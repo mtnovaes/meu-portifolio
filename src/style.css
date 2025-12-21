@@ -1,35 +1,24 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Space+Grotesk:wght@300..700&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Space+Grotesk:wght@300..700&display=swap");
 
 @import "tailwindcss";
 
 @theme {
-   
-    --font-sans: "Inter", "sans-serif";
-    
-    
-    --font-display: "Space Grotesk", "sans-serif";
+  --font-sans: "Inter", "sans-serif";
 
-    --color-glass: rgba(255, 255, 255, 0.05);
-    --color-neon: #9333ea;
+  --font-display: "Space Grotesk", "sans-serif";
+
+  --color-glass: rgba(255, 255, 255, 0.05);
+  --color-neon: #9333ea;
 }
-
 
 @theme {
-   
-    
-    --font-display: "Space Grotesk", sans-serif;
-    --font-sans: "Inter", sans-serif;
-    --color-glass: rgba(255, 255, 255, 0.05);
-    --color-neon: #9333ea;
+  --font-display: "Space Grotesk", sans-serif;
+  --font-sans: "Inter", sans-serif;
+  --color-glass: rgba(255, 255, 255, 0.05);
+  --color-neon: #9333ea;
+  --color-body:   #030712;
 }
 
-
-body {
-    @apply bg-slate-900 text-slate-300 antialiased;
-   
-}
 
 
 @utility container {
